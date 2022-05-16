@@ -22,7 +22,7 @@ void StatsAlerter::checkAndAlert(const std::vector<float>& data)
 	}
 }
 
-stats Statistics::ComputeStatistics(const std::vector<float>& data)
+Stats Statistics::ComputeStatistics(const std::vector<float>& data)
 {
 	std::cout << "Ok" << std::endl;
 	stats val;
