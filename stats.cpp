@@ -25,7 +25,7 @@ void StatsAlerter::checkAndAlert(const std::vector<float>& data)
 Stats Statistics::ComputeStatistics(const std::vector<float>& data)
 {
 	std::cout << "Ok" << std::endl;
-	stats val;
+	Stats val;
 	if (data.size() > 0)
 	{
 		float avg = 0;
