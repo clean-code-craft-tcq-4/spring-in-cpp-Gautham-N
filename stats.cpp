@@ -1,4 +1,4 @@
-#include "Stats.h"
+#include "stats.h"
 #include "iostream"
 
 void StatsAlerter::checkAndAlert(const std::vector<float>& data)
@@ -22,7 +22,7 @@ void StatsAlerter::checkAndAlert(const std::vector<float>& data)
 	}
 }
 
-Stats Statistics::ComputeStatistics(const std::vector<float>& data)
+stats Statistics::ComputeStatistics(const std::vector<float>& data)
 {
 	std::cout << "Ok" << std::endl;
 	Stats val;
